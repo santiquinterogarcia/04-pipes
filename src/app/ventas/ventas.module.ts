@@ -7,6 +7,9 @@ import { NumerosComponent } from './pages/numeros/numeros.component';
 import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
 import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
+import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
     NoComunesComponent,
     BasicosComponent,
     OrdenarComponent,
+    OrdenarPipe,
+    MayusculasPipe,
+    VuelaPipe,
   ],
   imports: [CommonModule, PrimeNgModule],
   exports: [
